@@ -1,9 +1,9 @@
 # Robot Arm Plan
 
-- **Goal**
+#### Goal
   - Construct an arduino-controlled robot arm from materials in the sigma lab.
 
-- **Resources/Materials**
+#### Resources/Materials
   - 4-6 servos
   - Arduino
   - 9V battery pack
@@ -14,6 +14,7 @@
   - Photo interrupters
   - 3D printer and laser cutter
 
-- **Schedule**
+#### Schedule
 
-- **Ideas**
+
+#### Ideas
