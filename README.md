@@ -38,6 +38,24 @@
 
 
 - *After winter break ~ wiring/code*
+  1. Power switch to led and battery
+      - Switch should turn on the entire thing, and the led should indicate when it is on
+  2. Photo interrupters
+  3. Potentiometers
+  4. Servos
+  
+  - All of the wiring and code is fairly straightforward
+  - Some difficulties may include
+    - Figuring out how to fit all of the wiring onto one arduino and maximize space
+    - Making sure the potentiometer is set up to move the servo in the correct direction 
 
 
 #### Ideas
+- Each servo corresponds to the moving parts of the arm (left/right, up/down, open/close)
+ - Potentiometers on the base of the arm will control each direction
+- Labels will be printed to indicate what servo it corresponds to
+- The base of the arm is just a box, containing the arduino and battery pack
+- One side of the box will be able to open with a hinge/knob, in order to allow easy access if the wiring or batteries    had to be changed
+- It will use continuous rotation servos, but will the range will be limited by a photo interrupter so the moving parts don’t hit other parts of the arm
+- Approximate size of box: length = 150 mm, width = 100 mm, height = 80 mm
+
